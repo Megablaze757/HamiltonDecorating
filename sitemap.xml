@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <url>
+    <loc>https://www.hamiltondecoraters.co.uk/</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.hamiltondecoraters.co.uk/assets/img/logo/hamilton-decorating-logo.jpg</image:loc>
+      <image:title>Hamilton Decorating — Painters and Decorators in Hastings, East Sussex</image:title>
+      <image:caption>Hamilton Decorating logo — professional painters and decorators serving East Sussex and Tunbridge Wells</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.hamiltondecoraters.co.uk/assets/img/gallery/interior-painting-period-hallway-east-sussex.jpg</image:loc>
+      <image:title>Period hallway painting East Sussex</image:title>
+      <image:caption>Elegant period hallway decorated in sage green with ornate cornicing by Hamilton Decorating</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.hamiltondecoraters.co.uk/assets/img/gallery/cabinet-refinishing-kitchen-diner-east-sussex.jpg</image:loc>
+      <image:title>Open plan kitchen diner cabinet refinishing East Sussex</image:title>
+      <image:caption>Full kitchen and open plan living decoration with sage-painted island by Hamilton Decorating</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.hamiltondecoraters.co.uk/assets/img/gallery/wallpaper-hanging-cloakroom-hastings.jpg</image:loc>
+      <image:title>Cloakroom wallpaper hanging Hastings</image:title>
+      <image:caption>Morris and Co wallpaper with teal panelling installed by Hamilton Decorating</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.hamiltondecoraters.co.uk/gallery.html</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.hamiltondecoraters.co.uk/assets/img/gallery/interior-painting-home-office-hastings.jpg</image:loc>
+      <image:title>Interior painting home office Hastings</image:title>
+      <image:caption>Dark navy home office with built-in shelving, interior painting by Hamilton Decorating</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.hamiltondecoraters.co.uk/assets/img/gallery/wallpaper-hanging-tropical-bedroom-hastings.jpg</image:loc>
+      <image:title>Wallpaper hanging bedroom Hastings</image:title>
+      <image:caption>Bold tropical botanical wallpaper feature wall hung by Hamilton Decorating</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.hamiltondecoraters.co.uk/assets/img/gallery/interior-painting-staircase-landing-east-sussex.jpg</image:loc>
+      <image:title>Staircase and landing painting East Sussex</image:title>
+      <image:caption>Staircase and hallway redecoration with contrasting dado rail by Hamilton Decorating</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.hamiltondecoraters.co.uk/assets/img/gallery/interior-painting-master-bedroom-east-sussex.jpg</image:loc>
+      <image:title>Master bedroom painting East Sussex</image:title>
+      <image:caption>Periwinkle blue master bedroom decorated by Hamilton Decorating</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.hamiltondecoraters.co.uk/assets/img/gallery/exterior-painting-front-door-east-sussex.jpg</image:loc>
+      <image:title>Exterior front door painting East Sussex</image:title>
+      <image:caption>Front door refinished in gloss black by Hamilton Decorating, exterior painting specialists</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.hamiltondecoraters.co.uk/assets/img/gallery/interior-painting-bathroom-east-sussex.jpg</image:loc>
+      <image:title>Bathroom painting East Sussex</image:title>
+      <image:caption>Teal and white bathroom decoration by Hamilton Decorating</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.hamiltondecoraters.co.uk/assets/img/gallery/cabinet-refinishing-kitchen-east-sussex.jpg</image:loc>
+      <image:title>Kitchen cabinet refinishing East Sussex</image:title>
+      <image:caption>Two-tone kitchen cabinet refinish in grey and navy by Hamilton Decorating</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.hamiltondecoraters.co.uk/assets/img/gallery/interior-painting-bathroom-panelling-hastings.jpg</image:loc>
+      <image:title>Bathroom panelling painting Hastings</image:title>
+      <image:caption>Bathroom with painted tongue and groove panelling by Hamilton Decorating</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.hamiltondecoraters.co.uk/assets/img/gallery/interior-painting-kitchen-hastings.jpg</image:loc>
+      <image:title>Kitchen painting Hastings</image:title>
+      <image:caption>Contemporary kitchen decorated in soft white by Hamilton Decorating</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.hamiltondecoraters.co.uk/#services</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.hamiltondecoraters.co.uk/#about</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.hamiltondecoraters.co.uk/#reviews</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.hamiltondecoraters.co.uk/#contact</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.hamiltondecoraters.co.uk/#areas</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
