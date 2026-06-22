@@ -7,7 +7,7 @@
 
 <!-- SEO Primary -->
 <title>Hamilton Decorating | Painters & Decorators in Hastings, East Sussex</title>
-<meta name="description" content="Professional painters and decorators based in Hastings, East Sussex. Interior & exterior painting, wallpaper hanging, decorative finishes. Covering East Sussex & Tunbridge Wells. Free quotes — call 07577 482723.">
+<meta name="description" content="Professional painters and decorators based in Hastings, East Sussex. Interior & exterior painting, wallpaper hanging, acoustic & decorative panelling. Covering East Sussex, Rother & Tunbridge Wells. Free quotes — call 07577 482723.">
 <meta name="keywords" content="painters decorators Hastings, painting decorating East Sussex, interior painter Hastings, exterior painting Sussex, wallpaper hanging Hastings, decorator Bexhill, painter Tunbridge Wells, Hamilton Decorating">
 <meta name="author" content="Hamilton Decorating">
 <meta name="robots" content="index, follow">
@@ -50,7 +50,7 @@
     "latitude": 50.8551,
     "longitude": 0.5740
   },
-  "areaServed": ["Hastings", "St Leonards-on-Sea", "Bexhill", "Battle", "Eastbourne", "Tunbridge Wells", "Rye", "Crowborough", "East Sussex"],
+  "areaServed": ["East Sussex", "Rother", "Tunbridge Wells"],
   "priceRange": "££",
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
@@ -87,7 +87,7 @@
       {"@type":"Offer","itemOffered":{"@type":"Service","name":"Interior Painting"}},
       {"@type":"Offer","itemOffered":{"@type":"Service","name":"Exterior Painting"}},
       {"@type":"Offer","itemOffered":{"@type":"Service","name":"Wallpaper Hanging"}},
-      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Decorative Finishes"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Acoustic & Decorative Panelling"}},
       {"@type":"Offer","itemOffered":{"@type":"Service","name":"Colour Consultation"}},
       {"@type":"Offer","itemOffered":{"@type":"Service","name":"Cabinet Refinishing"}}
     ]
@@ -310,7 +310,7 @@ section { position: relative; }
 .testimonial-author { font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--sage-light); }
 
 /* ── AREAS ── */
-.areas-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; margin-top: 40px; background: rgba(107,122,74,0.2); }
+.areas-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; margin-top: 40px; background: rgba(107,122,74,0.2); max-width: 700px; margin-left: auto; margin-right: auto; }
 .area-item { background: var(--charcoal); padding: 26px 18px; text-align: center; }
 .area-name { font-family: 'Cormorant Garamond', serif; font-size: 18px; color: var(--cream-light); }
 .area-county { font-size: 10px; letter-spacing: 0.16em; color: var(--sage-light); text-transform: uppercase; margin-top: 4px; }
@@ -377,7 +377,6 @@ footer { background: #1d1d1d; padding: 28px 48px; padding-bottom: calc(28px + va
 @media (max-width: 900px) {
   .services-grid { grid-template-columns: 1fr 1fr; }
   .testimonials-grid { grid-template-columns: 1fr; }
-  .areas-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 768px) {
@@ -405,7 +404,7 @@ footer { background: #1d1d1d; padding: 28px 48px; padding-bottom: calc(28px + va
   .hero-actions { flex-direction: column; align-items: center; width: 100%; }
   .btn-primary, .btn-outline { width: 100%; max-width: 300px; justify-content: center; }
   .services-grid { grid-template-columns: 1fr; }
-  .areas-grid { grid-template-columns: repeat(2, 1fr); }
+  .areas-grid { grid-template-columns: repeat(3, 1fr); }
   .contact-item a { font-size: 18px; }
   .social-link { flex: 1; justify-content: center; }
 }
@@ -588,6 +587,13 @@ footer { background: #1d1d1d; padding: 28px 48px; padding-bottom: calc(28px + va
   .scroll-line { width: 1px; height: 44px; background: linear-gradient(to bottom, rgba(107,122,74,0.9), transparent); animation: scrollPulse 2s ease infinite; }
   .hero-scroll { gap: 0; }
 
+
+  .site-credit { text-align: center; padding: 16px 24px; padding-bottom: calc(16px + var(--safe-bottom)); background: #1a1a1a; }
+  .site-credit p { font-size: 10px; color: rgba(232,213,190,0.28); letter-spacing: 0.04em; }
+  .site-credit a { color: rgba(232,213,190,0.45); text-decoration: none; transition: color 0.2s; }
+  .site-credit a:hover { color: var(--sage-light); }
+  @media (max-width: 768px) { .site-credit { padding-bottom: calc(16px + var(--safe-bottom) + 56px); } }
+
 </style>
 </head>
 <body>
@@ -718,10 +724,10 @@ footer { background: #1d1d1d; padding: 28px 48px; padding-bottom: calc(28px + va
       </article>
       <article class="service-card reveal" role="listitem">
         <div class="service-icon" aria-hidden="true">
-          <svg viewBox="0 0 40 40"><path d="M8 28 L20 10 L32 28"/><path d="M12 22 L28 22"/><circle cx="20" cy="10" r="3" fill="rgba(107,122,74,0.5)"/></svg>
+          <svg viewBox="0 0 40 40"><line x1="9" y1="6" x2="9" y2="34"/><line x1="15" y1="6" x2="15" y2="34"/><line x1="21" y1="6" x2="21" y2="34"/><line x1="27" y1="6" x2="27" y2="34"/><line x1="33" y1="6" x2="33" y2="34"/></svg>
         </div>
-        <h3 class="service-name">Decorative Finishes</h3>
-        <p class="service-desc">Textured coatings, faux finishes, limewash, and specialist effects that give your interiors genuine character and depth.</p>
+        <h3 class="service-name">Acoustic &amp; Decorative Panelling</h3>
+        <p class="service-desc">Slatted acoustic panels and decorative wall panelling, supplied and fitted to a flawless finish — a striking feature wall that also improves sound and insulation.</p>
       </article>
       <article class="service-card reveal reveal-delay-1" role="listitem">
         <div class="service-icon" aria-hidden="true">
@@ -902,38 +908,38 @@ footer { background: #1d1d1d; padding: 28px 48px; padding-bottom: calc(28px + va
 
           <div class="testimonial-slide" role="listitem">
             <span class="stars" aria-label="5 stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></span>
-            <p class="testimonial-text">"Absolutely brilliant job on our living room and hallway. Arrived on time, kept everything tidy, and the finish is outstanding. Will definitely use Hamilton Decorating again."</p>
-            <p class="testimonial-author">Sarah M. &mdash; Hastings</p>
+            <p class="testimonial-text">"Connor &amp; Nathan from Hamilton Decorating painted my room and did a great job. The work was completed to a good standard, he was reliable, professional, and kept everything tidy throughout. The finish looks clean and I'm happy with the result."</p>
+            <p class="testimonial-author">Jack Elliott &mdash; Google Review</p>
           </div>
 
           <div class="testimonial-slide" role="listitem">
             <span class="stars" aria-label="5 stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></span>
-            <p class="testimonial-text">"Transformed our whole house exterior — looks brand new. Really professional from start to finish. Very reasonable price for the quality of work."</p>
-            <p class="testimonial-author">James T. &mdash; Bexhill</p>
+            <p class="testimonial-text">"Excellent decorator. Nothing is beyond this man! His attention to detail is second to none. He is on time every day, polite and respectful. He has decorated our house from top to bottom and end to end &mdash; transformed a very tired looking little house. It's an 11/10 for Hamilton Decorating and Conor."</p>
+            <p class="testimonial-author">Heather Kinneavy &mdash; Google Review</p>
           </div>
 
           <div class="testimonial-slide" role="listitem">
             <span class="stars" aria-label="5 stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></span>
-            <p class="testimonial-text">"The wallpaper in our bedroom is perfect — not a single bubble or misaligned pattern. Couldn't recommend highly enough. Lovely people to have in the house too."</p>
-            <p class="testimonial-author">Claire H. &mdash; Tunbridge Wells</p>
+            <p class="testimonial-text">"I am really pleased with the work Hamilton Decorating has done here. Conor is fastidious in attention to detail in his work and a really nice guy, hardworking and always helpful. I will certainly use Hamilton Decorating again."</p>
+            <p class="testimonial-author">Kevin Smith &mdash; Google Review</p>
           </div>
 
           <div class="testimonial-slide" role="listitem">
             <span class="stars" aria-label="5 stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></span>
-            <p class="testimonial-text">"Painted our entire period hallway including all the ornate cornicing — immaculate. You can tell they really care about getting it right. Highly recommended."</p>
-            <p class="testimonial-author">David R. &mdash; Eastbourne</p>
+            <p class="testimonial-text">"I literally could not be more pleased that we picked Conor to do the painting of our hallway. The quality of his work is outstanding, lovely fresh corners. He was polite, professional and on time and his rates were really reasonable."</p>
+            <p class="testimonial-author">Fiona Hammy &mdash; Google Review</p>
           </div>
 
           <div class="testimonial-slide" role="listitem">
             <span class="stars" aria-label="5 stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></span>
-            <p class="testimonial-text">"Had the kitchen cabinets refinished and they look like a completely new kitchen. Saved us thousands compared to replacing them. Brilliant service and superb finish."</p>
-            <p class="testimonial-author">Michelle K. &mdash; Battle</p>
+            <p class="testimonial-text">"Happy to share the highest recommendation for Hamilton Decorating who have recently painted my house exterior and interior perfectly. Friendly, accommodating, totally reliable and honest with great attention to detail."</p>
+            <p class="testimonial-author">Emma Howarth &mdash; Google Review</p>
           </div>
 
           <div class="testimonial-slide" role="listitem">
             <span class="stars" aria-label="5 stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></span>
-            <p class="testimonial-text">"We had a tricky cloakroom with complicated angles — the wallpaper is flawless. Pattern matched perfectly on every seam. Genuinely impressed with the level of skill."</p>
-            <p class="testimonial-author">Tom & Lucy B. &mdash; St Leonards</p>
+            <p class="testimonial-text">"We used Conor to paint our lounge, hall, stairs and landing. He did an amazing job, the finish was excellent. He left everything clean and tidy. Would recommend Conor."</p>
+            <p class="testimonial-author">Steve Wall &mdash; Google Review</p>
           </div>
 
         </div>
@@ -960,14 +966,9 @@ footer { background: #1d1d1d; padding: 28px 48px; padding-bottom: calc(28px + va
     <h2 class="section-heading reveal" id="areas-heading" style="color:var(--cream);">Areas we serve</h2>
     <p class="section-body reveal" style="color:rgba(232,213,190,0.65); margin-top:14px;">Proudly serving homeowners and businesses across East Sussex and the surrounding areas. Not sure if we cover you? Just give us a call.</p>
     <div class="areas-grid reveal" role="list">
-      <div class="area-item" role="listitem"><div class="area-name">Hastings</div><div class="area-county">East Sussex</div></div>
-      <div class="area-item" role="listitem"><div class="area-name">St Leonards</div><div class="area-county">East Sussex</div></div>
-      <div class="area-item" role="listitem"><div class="area-name">Bexhill</div><div class="area-county">East Sussex</div></div>
-      <div class="area-item" role="listitem"><div class="area-name">Battle</div><div class="area-county">East Sussex</div></div>
-      <div class="area-item" role="listitem"><div class="area-name">Eastbourne</div><div class="area-county">East Sussex</div></div>
+      <div class="area-item" role="listitem"><div class="area-name">East Sussex</div><div class="area-county">County</div></div>
+      <div class="area-item" role="listitem"><div class="area-name">Rother</div><div class="area-county">District</div></div>
       <div class="area-item" role="listitem"><div class="area-name">Tunbridge Wells</div><div class="area-county">Kent</div></div>
-      <div class="area-item" role="listitem"><div class="area-name">Rye</div><div class="area-county">East Sussex</div></div>
-      <div class="area-item" role="listitem"><div class="area-name">Crowborough</div><div class="area-county">East Sussex</div></div>
     </div>
   </div>
 </section>
@@ -1062,6 +1063,11 @@ footer { background: #1d1d1d; padding: 28px 48px; padding-bottom: calc(28px + va
   <div class="footer-badge" aria-hidden="true">Hamilton<span style="color:var(--sage);">.</span></div>
 </footer>
 
+<div class="site-credit">
+  <p>Site by <a href="https://sacharaif.exposureboost.co.uk" target="_blank" rel="noopener noreferrer">Sacha Raif</a></p>
+</div>
+
+
 <!-- STICKY MOBILE CALL BAR -->
 <div class="sticky-call-bar" role="complementary" aria-label="Quick call button">
   <a href="tel:07577482723" aria-label="Call Hamilton Decorating on 07577 482723">☎ &nbsp;Call for a Free Quote &mdash; 07577 482723</a>
@@ -1128,9 +1134,30 @@ footer { background: #1d1d1d; padding: 28px 48px; padding-bottom: calc(28px + va
     var track = document.getElementById(trackId);
     var dots = document.getElementById(dotsId);
     if (!track) return;
-    var slides = Array.from(track.children);
-    var current = 0;
-    var GAP = 12; // gap between slides in px
+
+    var originals = Array.from(track.children);
+    var n = originals.length;
+    var GAP = 12; // px gap between slides
+
+    // Clone all slides at both ends so we can loop seamlessly.
+    // We clone the FULL set on each side — simplest way to guarantee
+    // enough buffer for any visibleCount (1, 2 or 3) without gaps.
+    originals.forEach(function(s) {
+      var clone = s.cloneNode(true);
+      clone.setAttribute('aria-hidden', 'true');
+      clone.querySelectorAll('[tabindex]').forEach(function(el){ el.setAttribute('tabindex','-1'); });
+      track.appendChild(clone); // append clone of each at the end
+    });
+    originals.slice().reverse().forEach(function(s) {
+      var clone = s.cloneNode(true);
+      clone.setAttribute('aria-hidden', 'true');
+      clone.querySelectorAll('[tabindex]').forEach(function(el){ el.setAttribute('tabindex','-1'); });
+      track.insertBefore(clone, track.firstChild); // prepend clone of each at the start
+    });
+
+    var slides = Array.from(track.children); // length = 3n
+    var current = n; // start at the first "real" slide (offset by one full clone-set)
+    var isJumping = false;
 
     function getVisible() {
       var w = window.innerWidth;
@@ -1138,60 +1165,93 @@ footer { background: #1d1d1d; padding: 28px 48px; padding-bottom: calc(28px + va
       if (w <= 900) return 2;
       return visibleCount;
     }
-    function maxIndex() { return Math.max(0, slides.length - getVisible()); }
 
-    function render() {
+    function layout() {
       var vis = getVisible();
       var wrap = track.parentElement;
       var totalW = wrap.offsetWidth;
       var slideW = (totalW - GAP * (vis - 1)) / vis;
-
-      // Set each slide width explicitly in px
-      slides.forEach(function(s) { s.style.width = slideW + 'px'; s.style.marginRight = GAP + 'px'; });
-      // Remove margin from last slide to avoid overflow
-      if (slides.length) slides[slides.length - 1].style.marginRight = '0px';
-
-      // Translate: each step = slideW + gap
-      var offset = current * (slideW + GAP);
-      track.style.transform = 'translateX(-' + offset + 'px)';
-
-      // Dots
-      dots.innerHTML = '';
-      var numDots = maxIndex() + 1;
-      for (var i = 0; i < numDots; i++) {
-        var d = document.createElement('button');
-        d.className = 'carousel-dot' + (i === current ? ' active' : '');
-        d.setAttribute('role', 'tab');
-        d.setAttribute('aria-label', 'Go to slide ' + (i + 1));
-        d.setAttribute('aria-selected', String(i === current));
-        (function(idx){ d.onclick = function(){ current = idx; render(); }; })(i);
-        dots.appendChild(d);
-      }
-      var prevBtn = document.getElementById(id + '-prev');
-      var nextBtn = document.getElementById(id + '-next');
-      if (prevBtn) prevBtn.disabled = current <= 0;
-      if (nextBtn) nextBtn.disabled = current >= maxIndex();
+      slides.forEach(function(s, i) {
+        s.style.width = slideW + 'px';
+        s.style.marginRight = (i === slides.length - 1) ? '0px' : GAP + 'px';
+      });
+      return slideW;
     }
 
-    carousels[id] = { move: function(dir) { current = Math.max(0, Math.min(current + dir, maxIndex())); render(); } };
+    function goTo(index, animate) {
+      var slideW = layout();
+      track.style.transition = animate ? 'transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)' : 'none';
+      var offset = index * (slideW + GAP);
+      track.style.transform = 'translateX(-' + offset + 'px)';
+      updateDots();
+    }
+
+    function updateDots() {
+      dots.innerHTML = '';
+      var realIndex = ((current - n) % n + n) % n; // normalise to 0..n-1
+      for (var i = 0; i < n; i++) {
+        var d = document.createElement('button');
+        d.className = 'carousel-dot' + (i === realIndex ? ' active' : '');
+        d.setAttribute('role', 'tab');
+        d.setAttribute('aria-label', 'Go to slide ' + (i + 1));
+        d.setAttribute('aria-selected', String(i === realIndex));
+        (function(idx){
+          d.onclick = function(){
+            current = n + idx;
+            goTo(current, true);
+          };
+        })(i);
+        dots.appendChild(d);
+      }
+      // Prev/next are never disabled — it's circular
+      var prevBtn = document.getElementById(id + '-prev');
+      var nextBtn = document.getElementById(id + '-next');
+      if (prevBtn) prevBtn.disabled = false;
+      if (nextBtn) nextBtn.disabled = false;
+    }
+
+    function move(dir) {
+      if (isJumping) return;
+      current += dir;
+      goTo(current, true);
+
+      // After the animated move, check if we've drifted into clone territory.
+      // If so, silently jump back into the real range without animating.
+      clearTimeout(track._jumpTimer);
+      track._jumpTimer = setTimeout(function() {
+        if (current >= 2 * n) {
+          current -= n;
+          isJumping = true;
+          goTo(current, false);
+          requestAnimationFrame(function(){ isJumping = false; });
+        } else if (current < n) {
+          current += n;
+          isJumping = true;
+          goTo(current, false);
+          requestAnimationFrame(function(){ isJumping = false; });
+        }
+      }, 520);
+    }
+
+    carousels[id] = { move: move };
 
     // Touch swipe
     var touchStartX = 0;
     track.addEventListener('touchstart', function(e){ touchStartX = e.touches[0].clientX; }, {passive:true});
     track.addEventListener('touchend', function(e){
       var diff = touchStartX - e.changedTouches[0].clientX;
-      if (Math.abs(diff) > 40) carousels[id].move(diff > 0 ? 1 : -1);
+      if (Math.abs(diff) > 40) move(diff > 0 ? 1 : -1);
     }, {passive:true});
 
-    // Re-render on resize with debounce
+    // Re-render on resize with debounce (no animation, just relayout in place)
     var resizeTimer;
     window.addEventListener('resize', function(){
       clearTimeout(resizeTimer);
-      resizeTimer = setTimeout(function(){ current = Math.min(current, maxIndex()); render(); }, 100);
+      resizeTimer = setTimeout(function(){ goTo(current, false); }, 100);
     }, {passive:true});
 
-    // Initial render — wait one frame so DOM width is available
-    requestAnimationFrame(function(){ requestAnimationFrame(render); });
+    // Initial layout — wait a frame so DOM width is available
+    requestAnimationFrame(function(){ requestAnimationFrame(function(){ goTo(current, false); }); });
   }
 
   function moveCarousel(id, dir) { if (carousels[id]) carousels[id].move(dir); }

@@ -177,6 +177,13 @@ footer{background:#1d1d1d;padding:28px 48px;padding-bottom:calc(28px + var(--saf
   .scroll-line { width: 1px; height: 44px; background: linear-gradient(to bottom, rgba(107,122,74,0.9), transparent); animation: scrollPulse 2s ease infinite; }
   .hero-scroll { gap: 0; }
 
+
+  .site-credit { text-align: center; padding: 16px 24px; padding-bottom: calc(16px + var(--safe-bottom)); background: #1a1a1a; }
+  .site-credit p { font-size: 10px; color: rgba(232,213,190,0.28); letter-spacing: 0.04em; }
+  .site-credit a { color: rgba(232,213,190,0.45); text-decoration: none; transition: color 0.2s; }
+  .site-credit a:hover { color: var(--sage-light); }
+  @media (max-width: 768px) { .site-credit { padding-bottom: calc(16px + var(--safe-bottom) + 56px); } }
+
 </style>
 </head>
 <body>
@@ -222,6 +229,7 @@ footer{background:#1d1d1d;padding:28px 48px;padding-bottom:calc(28px + var(--saf
   <button class="filter-btn" onclick="filterGallery('interior')" data-filter="interior">Interior Painting</button>
   <button class="filter-btn" onclick="filterGallery('exterior')" data-filter="exterior">Exterior</button>
   <button class="filter-btn" onclick="filterGallery('wallpaper')" data-filter="wallpaper">Wallpaper</button>
+  <button class="filter-btn" onclick="filterGallery('panelling')" data-filter="panelling">Panelling</button>
   <button class="filter-btn" onclick="filterGallery('cabinets')" data-filter="cabinets">Cabinets</button>
 </div>
 
@@ -240,7 +248,11 @@ footer{background:#1d1d1d;padding:28px 48px;padding-bottom:calc(28px + var(--saf
 <div class="gallery-item reveal" data-category="interior" data-caption="Contemporary Kitchen — Soft White" data-tag="Interior Painting" onclick="openLightbox(9)" role="button" tabindex="0" aria-label="View Contemporary Kitchen — Soft White"><img src="assets/img/gallery/interior-painting-kitchen-hastings.jpg" alt="Contemporary kitchen painted soft white by Hamilton Decorating, East Sussex" loading="lazy"><div class="gallery-overlay" aria-hidden="true"><div class="gallery-caption">Contemporary Kitchen — Soft White</div><div class="gallery-tag">Interior Painting</div></div></div>
 <div class="gallery-item reveal" data-category="wallpaper" data-caption="Cloakroom WC — Morris & Co. Wallpaper" data-tag="Wallpaper Hanging" onclick="openLightbox(10)" role="button" tabindex="0" aria-label="View Cloakroom WC — Morris & Co. Wallpaper"><img src="assets/img/gallery/wallpaper-hanging-cloakroom-hastings.jpg" alt="Downstairs cloakroom with Morris and Co wallpaper and teal tongue and groove panelling — Hamilton Decorating" loading="lazy"><div class="gallery-overlay" aria-hidden="true"><div class="gallery-caption">Cloakroom WC — Morris & Co. Wallpaper</div><div class="gallery-tag">Wallpaper Hanging</div></div></div>
 <div class="gallery-item reveal" data-category="interior" data-caption="Period Hallway — Sage Green & Ornate Cornicing" data-tag="Interior Painting" onclick="openLightbox(11)" role="button" tabindex="0" aria-label="View Period Hallway — Sage Green & Ornate Cornicing"><img src="assets/img/gallery/interior-painting-period-hallway-east-sussex.jpg" alt="Period Victorian hallway painted sage green with ornate cornicing by Hamilton Decorating East Sussex" loading="lazy"><div class="gallery-overlay" aria-hidden="true"><div class="gallery-caption">Period Hallway — Sage Green & Ornate Cornicing</div><div class="gallery-tag">Interior Painting</div></div></div>
-  </div>
+  
+<div class="gallery-item reveal" data-category="panelling" data-caption="Acoustic Panelling Feature Wall" data-tag="Acoustic &amp; Decorative Panelling" onclick="openLightbox(12)" role="button" tabindex="0" aria-label="View Acoustic Panelling Feature Wall"><img src="assets/img/gallery/acoustic-panelling-feature-wall-east-sussex.jpg" alt="Slatted oak acoustic panelling with integrated LED lighting installed by Hamilton Decorating, East Sussex" loading="lazy"><div class="gallery-overlay" aria-hidden="true"><div class="gallery-caption">Acoustic Panelling Feature Wall</div><div class="gallery-tag">Acoustic &amp; Decorative Panelling</div></div></div>
+<div class="gallery-item reveal" data-category="panelling" data-caption="Bedroom — Wardrobe &amp; Wall Panelling" data-tag="Acoustic &amp; Decorative Panelling" onclick="openLightbox(13)" role="button" tabindex="0" aria-label="View Bedroom — Wardrobe &amp; Wall Panelling"><img src="assets/img/gallery/decorative-panelling-bedroom-east-sussex.jpg" alt="Built-in panelled wardrobe and feature wall in a bedroom, decorative panelling by Hamilton Decorating, East Sussex" loading="lazy"><div class="gallery-overlay" aria-hidden="true"><div class="gallery-caption">Bedroom — Wardrobe &amp; Wall Panelling</div><div class="gallery-tag">Acoustic &amp; Decorative Panelling</div></div></div>
+<div class="gallery-item reveal" data-category="panelling" data-caption="Nursery — Wainscoting &amp; Panelling" data-tag="Acoustic &amp; Decorative Panelling" onclick="openLightbox(14)" role="button" tabindex="0" aria-label="View Nursery — Wainscoting &amp; Panelling"><img src="assets/img/gallery/decorative-panelling-nursery-east-sussex.jpg" alt="Nursery with decorative wall panelling and giraffe wallpaper, fitted by Hamilton Decorating, East Sussex" loading="lazy"><div class="gallery-overlay" aria-hidden="true"><div class="gallery-caption">Nursery — Wainscoting &amp; Panelling</div><div class="gallery-tag">Acoustic &amp; Decorative Panelling</div></div></div>
+</div>
 </section>
 
 <div class="roller-divider"></div>
@@ -266,6 +278,11 @@ footer{background:#1d1d1d;padding:28px 48px;padding-bottom:calc(28px + var(--saf
   </nav>
   <div class="footer-badge">Hamilton<span style="color:var(--sage);">.</span></div>
 </footer>
+
+<div class="site-credit">
+  <p>Site by <a href="https://sacharaif.exposureboost.co.uk" target="_blank" rel="noopener noreferrer">Sacha Raif</a></p>
+</div>
+
 
 <!-- FLOATING CONTACT BAR -->
 <div class="float-bar" role="complementary" aria-label="Quick contact">
@@ -323,7 +340,7 @@ document.addEventListener('keydown', e => {
 });
 
 const galleryItems = Array.from(document.querySelectorAll('.gallery-item'));
-const galleryData = [{"caption": "Home Office \u2014 Dark Navy Study", "tag": "Interior Painting"}, {"caption": "Tropical Feature Wall \u2014 Bedroom", "tag": "Wallpaper Hanging"}, {"caption": "Staircase & Landing Redecoration", "tag": "Interior Painting"}, {"caption": "Master Bedroom \u2014 Periwinkle Blue", "tag": "Interior Painting"}, {"caption": "Front Door \u2014 Gloss Black Exterior", "tag": "Exterior Painting"}, {"caption": "Bathroom \u2014 Teal & White", "tag": "Interior Painting"}, {"caption": "Kitchen Cabinet Refinish \u2014 Two-Tone", "tag": "Cabinet Refinishing"}, {"caption": "Open Plan Kitchen Diner \u2014 Sage Island", "tag": "Cabinet Refinishing"}, {"caption": "Bathroom \u2014 Tongue & Groove Panelling", "tag": "Interior Painting"}, {"caption": "Contemporary Kitchen \u2014 Soft White", "tag": "Interior Painting"}, {"caption": "Cloakroom WC \u2014 Morris & Co. Wallpaper", "tag": "Wallpaper Hanging"}, {"caption": "Period Hallway \u2014 Sage Green & Ornate Cornicing", "tag": "Interior Painting"}];
+const galleryData = [{"caption": "Home Office \u2014 Dark Navy Study", "tag": "Interior Painting"}, {"caption": "Tropical Feature Wall \u2014 Bedroom", "tag": "Wallpaper Hanging"}, {"caption": "Staircase & Landing Redecoration", "tag": "Interior Painting"}, {"caption": "Master Bedroom \u2014 Periwinkle Blue", "tag": "Interior Painting"}, {"caption": "Front Door \u2014 Gloss Black Exterior", "tag": "Exterior Painting"}, {"caption": "Bathroom \u2014 Teal & White", "tag": "Interior Painting"}, {"caption": "Kitchen Cabinet Refinish \u2014 Two-Tone", "tag": "Cabinet Refinishing"}, {"caption": "Open Plan Kitchen Diner \u2014 Sage Island", "tag": "Cabinet Refinishing"}, {"caption": "Bathroom \u2014 Tongue & Groove Panelling", "tag": "Interior Painting"}, {"caption": "Contemporary Kitchen \u2014 Soft White", "tag": "Interior Painting"}, {"caption": "Cloakroom WC \u2014 Morris & Co. Wallpaper", "tag": "Wallpaper Hanging"}, {"caption": "Period Hallway \u2014 Sage Green & Ornate Cornicing", "tag": "Interior Painting"}, {"caption": "Acoustic Panelling Feature Wall", "tag": "Acoustic & Decorative Panelling"}, {"caption": "Bedroom \u2014 Wardrobe & Wall Panelling", "tag": "Acoustic & Decorative Panelling"}, {"caption": "Nursery \u2014 Wainscoting & Panelling", "tag": "Acoustic & Decorative Panelling"}];
 let currentIndex = 0;
 
 function filterGallery(cat) {
